@@ -1,4 +1,4 @@
-import styled, { css, keyframes } from "styled-components";
+import styled, { keyframes } from "styled-components";
 import eye1 from "../assets/eyes/eye1.png";
 import eye2 from "../assets/eyes/eye2.png";
 import eye3 from "../assets/eyes/eye3.png";

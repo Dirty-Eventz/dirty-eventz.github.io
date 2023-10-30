@@ -5,7 +5,6 @@ import monitors from "../assets/monitors.png";
 import device from "../assets/device.png";
 import boom from "../assets/boom.gif";
 import Eye from "./Eye";
-import { useState } from "react";
 
 const TechContainer = styled.div`
   display: flex;
@@ -15,7 +14,7 @@ const TechContainer = styled.div`
   position: relative;
   width: 100%;
   height: 100vh;
-  background-color: black;
+  margin: 100px 0 0 0;
 `;
 
 const Screen = styled.img`
@@ -36,9 +35,11 @@ const Eyes = styled.div`
   height: 100%;
 `;
 
-const Computer = () => {
-  const [tooLate, setTooLate] = useState<boolean>(true);
+interface ComputerProps {
+  pressed: boolean;
+}
 
+const Computer = ({ pressed }: ComputerProps) => {
   return (
     <TechContainer>
       <Eyes>
@@ -124,7 +125,7 @@ const Computer = () => {
         />
       </Eyes>
 
-      {tooLate ? (
+      {pressed ? (
         <Screen src={boom} style={{ top: 50, left: 118 }} />
       ) : (
         <Screen src={logo} style={{ top: 57, left: 122 }} />
