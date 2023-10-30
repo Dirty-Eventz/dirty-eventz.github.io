@@ -20,17 +20,22 @@ const DoomsdayButton = styled.button`
   border: none;
 `;
 
+const DoomsdayButton_img = styled.img`
+  width: 250px;
+  height: auto;
+`;
+
 function App() {
   const [pressed, setPressed] = useState<boolean>(false);
 
   return (
     <Console>
       <Computer pressed={pressed} />
-      <DoomsdayButton onClick={() => setPressed((prevState) => !prevState)}>
+      <DoomsdayButton onClick={() => setPressed(true)}>
         {pressed ? (
-          <img src={button_pressed} />
+          <DoomsdayButton_img src={button_pressed} />
         ) : (
-          <img src={button_unpressed} />
+          <DoomsdayButton_img src={button_unpressed} />
         )}
       </DoomsdayButton>
     </Console>

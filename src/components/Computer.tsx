@@ -14,7 +14,6 @@ const TechContainer = styled.div`
   position: relative;
   width: 100%;
   height: 100vh;
-  margin: 100px 0 0 0;
 `;
 
 const Screen = styled.img`

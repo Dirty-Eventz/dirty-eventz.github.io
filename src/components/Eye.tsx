@@ -99,7 +99,7 @@ const Eye = ({
     z-index: 3;
     width: 100%;
     height: 100%;
-    ${flipped && "transform: scaleY(-1);"}
+    ${flipped && "transform: scaleX(-1);"}
   `;
 
   const Eyeball = styled.img`
