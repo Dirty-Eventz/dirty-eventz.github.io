@@ -65,39 +65,63 @@ const Computer = ({ pressed }: ComputerProps) => {
               <Screen_Text>djs:</Screen_Text>
             </Screen_Interactable>
             <Screen_Interactable
-              style={{ width: 110, height: 110, top: 148, left: 176 }}
+              style={{ width: 110, height: 110, top: 146, left: 177 }}
             >
               <Screen_Text
                 href="https://www.instagram.com/st6nley/"
-                style={{ textDecoration: "underline" }}
+                style={{
+                  textDecoration: "underline",
+                  fontSize: "16px",
+                  display: "block",
+                }}
               >
                 @st6nley
               </Screen_Text>
               <br />
               <Screen_Text
                 href="https://www.instagram.com/thycups/"
-                style={{ textDecoration: "underline" }}
+                style={{
+                  textDecoration: "underline",
+                  fontSize: "16px",
+                  margin: "-16px 0 0 0",
+                  display: "block",
+                }}
               >
                 @thycups
               </Screen_Text>
               <br />
               <Screen_Text
-                href="https://www.instagram.com/replicator444/"
-                style={{ textDecoration: "underline" }}
-              >
-                @replicator444
-              </Screen_Text>
-              <br />
-              <Screen_Text
                 href="https://www.instagram.com/p11no/"
-                style={{ textDecoration: "underline" }}
+                style={{
+                  textDecoration: "underline",
+                  fontSize: "16px",
+                  margin: "-16px 0 0 0",
+                  display: "block",
+                }}
               >
                 @p11no
               </Screen_Text>
               <br />
               <Screen_Text
+                href="https://www.instagram.com/replicator444/"
+                style={{
+                  textDecoration: "underline",
+                  fontSize: "16px",
+                  margin: "-16px 0 0 0",
+                  display: "block",
+                }}
+              >
+                @replicator444
+              </Screen_Text>
+              <br />
+              <Screen_Text
                 href="https://www.instagram.com/feardotc0m/"
-                style={{ textDecoration: "underline" }}
+                style={{
+                  textDecoration: "underline",
+                  fontSize: "16px",
+                  margin: "-16px 0 0 0",
+                  display: "block",
+                }}
               >
                 @feardotc0m
               </Screen_Text>
@@ -116,7 +140,7 @@ const Computer = ({ pressed }: ComputerProps) => {
 
             {/* row two */}
             <Screen_Interactable
-              style={{ width: 40, height: 60, top: 210, left: 88 }}
+              style={{ width: 60, height: 40, top: 220, left: 82 }}
             >
               <Screen_Text
                 style={{
@@ -143,7 +167,16 @@ const Computer = ({ pressed }: ComputerProps) => {
                   display: "block",
                 }}
               >
-                visuals!
+                saturday
+              </Screen_Text>
+              <Screen_Text
+                style={{
+                  margin: "-2px 0 0 0",
+                  display: "block",
+                  whiteSpace: "nowrap",
+                }}
+              >
+                march 2nd
               </Screen_Text>
               <Screen_Text
                 style={{
@@ -151,27 +184,45 @@ const Computer = ({ pressed }: ComputerProps) => {
                   display: "block",
                 }}
               >
-                tattoos!
-              </Screen_Text>
-              <Screen_Text
-                style={{
-                  margin: "-2px 0 0 0",
-                  display: "block",
-                }}
-              >
-                vendors!
+                9pm-2am
               </Screen_Text>
             </Screen_Interactable>
             <Screen_Interactable
               style={{
                 width: 60,
                 height: 35,
-                top: 216,
-                left: 278,
+                top: 220,
+                left: 268,
                 transform: "rotate(-10deg)",
               }}
             >
-              <Screen_Text style={{ whiteSpace: "nowrap" }}>9-2</Screen_Text>
+              <Screen_Text
+                style={{
+                  fontSize: "11px",
+                  margin: "-4px 0 0 0",
+                  display: "block",
+                }}
+              >
+                visuals
+              </Screen_Text>
+              <Screen_Text
+                style={{
+                  fontSize: "11px",
+                  margin: "-4px 0 0 0",
+                  display: "block",
+                }}
+              >
+                vendors
+              </Screen_Text>
+              <Screen_Text
+                style={{
+                  fontSize: "11px",
+                  margin: "-4px 0 0 0",
+                  display: "block",
+                }}
+              >
+                tattoos
+              </Screen_Text>
             </Screen_Interactable>
             <Screen_Interactable
               style={{ width: 40, height: 40, top: 205, left: 320 }}
@@ -185,7 +236,7 @@ const Computer = ({ pressed }: ComputerProps) => {
                 width: 20,
                 height: 20,
                 top: 302,
-                left: 116,
+                left: 114,
                 transform: "rotate(-8deg)",
               }}
             >
@@ -197,13 +248,13 @@ const Computer = ({ pressed }: ComputerProps) => {
               </Screen_Text>
             </Screen_Interactable>
             <Screen_Interactable
-              style={{ width: 50, height: 50, top: 258, left: 202 }}
+              style={{ width: 50, height: 50, top: 258, left: 198 }}
             >
               <Screen_Text
-                href="https://www.instagram.com/feardotc0m/"
-                style={{ textDecoration: "underline" }}
+                href=""
+                style={{ textDecoration: "underline", whiteSpace: "nowrap" }}
               >
-                rsvp_now
+                rsvp here
               </Screen_Text>
             </Screen_Interactable>
             <Screen_Interactable
