@@ -60,7 +60,7 @@ const Computer = ({ pressed }: ComputerProps) => {
           <Eyes>
             {/* row one */}
             <Screen_Interactable
-              style={{ width: 30, height: 30, top: 170, left: 119 }}
+              style={{ width: 30, height: 30, top: 170, left: 116 }}
             >
               <Screen_Text>djs:</Screen_Text>
             </Screen_Interactable>
@@ -116,9 +116,17 @@ const Computer = ({ pressed }: ComputerProps) => {
 
             {/* row two */}
             <Screen_Interactable
-              style={{ width: 40, height: 40, top: 220, left: 90 }}
+              style={{ width: 40, height: 60, top: 210, left: 88 }}
             >
-              <Screen_Text style={{ fontSize: "20px" }}>☢☢</Screen_Text>
+              <Screen_Text
+                style={{
+                  fontSize: "8px",
+                  display: "block",
+                  textAlign: "left",
+                }}
+              >
+                經網絡而廣泛流傳的錯誤
+              </Screen_Text>
             </Screen_Interactable>
             <Screen_Interactable
               style={{
@@ -156,14 +164,14 @@ const Computer = ({ pressed }: ComputerProps) => {
             </Screen_Interactable>
             <Screen_Interactable
               style={{
-                width: 30,
-                height: 30,
-                top: 219,
-                left: 282,
+                width: 60,
+                height: 35,
+                top: 216,
+                left: 278,
                 transform: "rotate(-10deg)",
               }}
             >
-              <Screen_Text>9-2</Screen_Text>
+              <Screen_Text style={{ whiteSpace: "nowrap" }}>9-2</Screen_Text>
             </Screen_Interactable>
             <Screen_Interactable
               style={{ width: 40, height: 40, top: 205, left: 320 }}
@@ -177,7 +185,7 @@ const Computer = ({ pressed }: ComputerProps) => {
                 width: 20,
                 height: 20,
                 top: 302,
-                left: 120,
+                left: 116,
                 transform: "rotate(-8deg)",
               }}
             >

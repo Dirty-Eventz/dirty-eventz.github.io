@@ -3,11 +3,14 @@ import Computer from "./components/Computer";
 import styled from "styled-components";
 import button_pressed from "./assets/buttons/button_pressed.png";
 import button_unpressed from "./assets/buttons/button_unpressed.png";
+import liquid from "./assets/liquid.gif";
 
 const Console = styled.div`
   position: relative;
   width: 100%;
   height: 100%;
+  background-image: url(${liquid});
+  background-position: center;
 `;
 
 const DoomsdayButton = styled.button`
